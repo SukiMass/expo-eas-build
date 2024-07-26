@@ -3,19 +3,11 @@
     "version": ">= 10.2.1"
   },
   "build": {
-    "preview": {
+    "production": {
+      "workflow": "managed",
       "android": {
         "buildType": "apk"
       }
-    },
-    "preview2": {
-      "android": {
-        "gradleCommand": ":app:assembleRelease"
-      }
-    },
-    "preview3": {
-      "developmentClient": true
-    },
-    "production": {}
+    }
   }
 }
