@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Expo() {
   return (
     <View style={styles.container}>
-      <Text>This is expo app using github actions</Text>
+      <Text>This is expo app using github actions with eas</Text>
       <StatusBar style="auto" />
     </View>
   );
