@@ -4,9 +4,11 @@
   },
   "build": {
     "production": {
-      "workflow": "managed",
       "android": {
-        "buildType": "apk"
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
       }
     }
   }
